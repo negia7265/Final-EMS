@@ -34,7 +34,8 @@ export default function Edit(props) {
     lastName,
     email,
     salary,
-    date
+    date,
+    id2=""
   };
   props.employees[id-1]=employee;
   props.setEmployees(props.employees);
